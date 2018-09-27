@@ -1,8 +1,5 @@
 from rest_framework import serializers
-from posts.models import Post
-
-# Similar to Django ModelForms
-# https://docs.djangoproject.com/en/2.0/topics/forms/modelforms/
+from blog.models import Post
 
 
 class PostSerializer(serializers.ModelSerializer):
