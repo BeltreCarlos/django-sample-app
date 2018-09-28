@@ -8,6 +8,7 @@ django = "*"
 djangorestframework = "*"
 pylint = "*"
 "autopep8" = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 coverage = "*"
