@@ -19,6 +19,7 @@ class Comment(models.Model):
 class Person(models.Model):
     name = models.CharField(max_length=100)
     age = models.IntegerField()
+    height = models.IntegerField()
     birth_date = models.DateField()
 
     # Methods example
